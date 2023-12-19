@@ -20,6 +20,8 @@
             script: |
               cd ~/forum-api
               git pull origin main
+              if [ -f ~/.nvm/nvm.sh ]; then . ~/.nvm/nvm.sh; fi
+              nvm use v18
               npm install
               npm run migrate up
               pm2 restart forum-api
