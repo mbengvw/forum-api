@@ -24,13 +24,6 @@ describe('AddedThread entities', () => {
   });
 
   it('should create addedThread object correctly', () => {
-    /**
-     * @TODO 2
-     * Lengkapi pengujian pada skenario berhasil membuat objek addedThread.
-     * Pastikan terdapat proses `assertion`
-     * yang mengecek nilai-nilai properti yang berada di dalam objek `addedThread`.
-     */
-
     const payload = {
       id: 'thread-123',
       title: 'thread-title',
